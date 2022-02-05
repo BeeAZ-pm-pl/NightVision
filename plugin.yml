@@ -6,7 +6,7 @@ author: BeeAZZ
 description: The Ability To See In The Dark
 
 commands:
- nightvision:
+ vision:
   description: Turn on the ability to see in the dark
   permission: nightvision.command
 permissions:
