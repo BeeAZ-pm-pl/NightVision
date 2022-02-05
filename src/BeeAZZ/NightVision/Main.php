@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener{
   }
   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool{
    switch($cmd->getName()){
-    case "nightvision":
+    case "vision":
      if(!$sender instanceof Player){
       $sender->sendMessage("Please use command in game");
         return true;
