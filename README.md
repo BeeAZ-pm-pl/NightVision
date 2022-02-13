@@ -1,22 +1,7 @@
-# Command
-
-<br>
-
-• /vision
-
-<br>
-
 # General
+**Added a feature to see in the dark when players use commands**
 
-<br>
+# Note
+** Supported PM4 **
 
-• The plugin helps you add the ability to see in the dark for players
-
-# Permission
-
-<br>
-
-• nightvision.command
-
-<br>
 
