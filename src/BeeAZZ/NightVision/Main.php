@@ -30,6 +30,18 @@ class Main extends PluginBase implements Listener{
       $sender->sendMessage($this->getConfig()->get("message"));
         break;
      }
+    case "unvision":
+      if(!$sender instanceof Player){
+      $sender->sendMessage("Please use command in game");
+        return true;
+     }
+     if($sender->hasPermission("nightvision.command")){
+     if($sender->getEffects()->has(VanillaEffects::NIGHT_VISION())){
+      $sender->getEffects()->remove(VanillaEffects::NIGHT_VISION());
+      $sender->sendMessage($this->getConfig()->get("remove-message"));
+        break;
+     }
+      return true;
     }
     return true;
   }
