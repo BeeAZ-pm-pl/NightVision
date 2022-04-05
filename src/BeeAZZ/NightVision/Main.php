@@ -39,9 +39,11 @@ class Main extends PluginBase implements Listener{
      if($sender->getEffects()->has(VanillaEffects::NIGHT_VISION())){
       $sender->getEffects()->remove(VanillaEffects::NIGHT_VISION());
       $sender->sendMessage($this->getConfig()->get("remove-message"));
+          }
         break;
      }
       return true;
     }
     return true;
   }
+}
