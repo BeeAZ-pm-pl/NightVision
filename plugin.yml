@@ -1,16 +1,18 @@
 name: NightVision
 main: BeeAZZ\NightVision\Main
 api: 4.0.0
-version: 1.0.4
-author: BeeAZZ
+version: 1.0.5
+author: BeeAZ
 description: The Ability To See In The Dark
 
 commands:
  vision:
   description: Turn on the ability to see in the dark
+  aliases: ["vs"]
   permission: nightvision.command
  unvision:
   description: Turn off the ability to see in the dark
+  aliases: ["uvs"]
   permission: nightvision.command
 permissions:
  nightvision.command:
