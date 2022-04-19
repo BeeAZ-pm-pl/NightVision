@@ -4,19 +4,16 @@ namespace BeeAZZ\NightVision;
 
 use pocketmine\player\Player;
 use pocketmine\Server;
-use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\entity\effect\Effect;
 use pocketmine\entity\effect\VanillaEffects;
 use pocketmine\entity\effect\EffectInstance;
 use pocketmine\command\{Command, CommandSender};
 
-class Main extends PluginBase implements Listener{
+class Main extends PluginBase{
   
   public function onEnable(): void{
-    $this->getServer()->getPluginManager()->registerEvents($this, $this);
     $this->saveDefaultConfig();
-    
   }
   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool{
    switch($cmd->getName()){
