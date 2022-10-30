@@ -6,14 +6,14 @@ author: BeeAZ
 description: The Ability To See In The Dark
 
 commands:
- vision:
-  description: Turn on the ability to see in the dark
-  aliases: ["vs"]
-  permission: nightvision.command
- unvision:
-  description: Turn off the ability to see in the dark
-  aliases: ["uvs"]
-  permission: nightvision.command
+  vision:
+    description: Turn on the ability to see in the dark
+    aliases: ["vs"]
+    permission: nightvision.command
+  unvision:
+    description: Turn off the ability to see in the dark
+    aliases: ["uvs"]
+    permission: nightvision.command
 permissions:
  nightvision.command:
   default: op
