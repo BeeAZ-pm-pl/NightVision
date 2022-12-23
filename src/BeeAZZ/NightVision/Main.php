@@ -23,7 +23,7 @@ class Main extends PluginBase {
 			return true;
 		}
 		if ($cmd->getName() == "vision") {
-			$sender->getEffects()->add(new EffectInstance(VanillaEffects::NIGHT_VISION(), 20 * $this->getConfig()->get("effect-time"), 2, true));
+			$sender->getEffects()->add(new EffectInstance(VanillaEffects::NIGHT_VISION(), 20 * $this->getConfig()->get("effect-time"), $this->getConfig()->get("effect-amplifier"), $this->getConfig()->get("effect-visible")));
 			$sender->sendMessage($this->getConfig()->get("message"));
 			return true;
 		}
