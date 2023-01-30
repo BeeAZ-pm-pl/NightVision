@@ -1,7 +1,7 @@
 name: NightVision
 main: BeeAZZ\NightVision\Main
-api: 4.0.0
-version: 1.0.5
+api: 5.0.0
+version: 1.0.6
 author: BeeAZ
 description: The Ability To See In The Dark
 
