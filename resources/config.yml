@@ -1,5 +1,7 @@
 #Seconds
 effect-time: 5
+effect-amplifier: 2
+effect-visible: true
 
 #Message
 message: "Turn on the ability to see in the dark successfully"
